@@ -1,4 +1,4 @@
-# system for handling patients waiting in line in a clinic.
+# System for handling patients waiting in line in a clinic.
 
 When a patient arrives at the clinic she should be added to the system.   
 Patients are handled either by creation time or by medical priority. Thus, the system should be
