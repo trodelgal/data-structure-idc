@@ -35,9 +35,15 @@ correctly by all the implemented methods.
 ## Examples:
 
 Assume the first operation is SplayTree(“ACCCGACTGTCCATAGAAA”)
+
 substitute(1,’T’) produces “ATCCGACTGTCCATAGAAA”
+
 then, insert(2,’A’) produces “ATACCGACTGTCCATAGAAA”
+
 then, delete(0) produces “TACCGACTGTCCATAGAAA”
+
 then, translocate(0,3,6) produces “GATACCCTGTCCATAGAAA”
+
 then, translocate(4,6,1) produces “GCCCATATGTCCATAGAAA”
+
 then, invert (2,5) produces “GCTACCATGTCCATAGAAA”
